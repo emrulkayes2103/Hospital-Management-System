@@ -1,0 +1,306 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.logInfo {
+    height:130px;
+    width:25%;
+    margin:0;
+    padding:0;
+    background-color:#005566;
+    float:left;
+}
+.logoImage {
+    padding-left:100px;
+    padding-top:15px;
+}
+.logOutbtn {
+    height:130px;
+    width:73%;
+    margin:0;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+}
+    .logOutbtn h3 {
+        text-align:center;
+        font-family:'Adobe Arabic';
+        font-size:40px;
+        color:#373e4a;
+        margin:0;
+        padding-top:15px;
+    }
+    .logOutbtn a {
+        text-decoration:none;
+        margin-left:90%;
+        font-size:15px;
+        color:#005566;
+    }
+.leftMenuSection {
+    height:1000px;
+    width:25%;
+    margin:0;
+    padding:0;
+    background-color:#005566;
+    float:left;
+    border-top:0.1em solid #0f6965 ;
+}
+.centerBody {
+    height:600px;
+    width:73%;
+    margin:0;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+    border-top:0.1em solid #eeeeee;
+}
+.leftManuber {
+    height:600px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+    .leftManuber ul {
+        margin:0;
+        list-style-type:none;
+        position:relative;
+        padding:0;
+    }
+        .leftManuber ul li {
+            list-style:none;
+            border-bottom:.01em solid #0f6965;
+            height:40px;
+            width:100%;
+            margin:0;
+            padding:0;
+        }
+            .leftManuber ul li a {
+                display:block;
+                text-decoration:none;
+                color:#ddffdf;
+                padding-top:10px;
+                padding-left:40px;
+                font-family:Tahoma;
+                font-size:15px;
+                
+            }
+            .leftManuber ul li:hover {
+                cursor:pointer;
+                background-color:#373e4a;
+            }
+        .leftManuber ul li ul {
+        list-style-type:none;
+        position:relative;
+        padding:0;
+        display:none;
+        position:absolute;
+        margin-left:100%;
+        width:100%;
+        top:40px;
+        }
+       
+.leftManuber ul li ul li {
+    list-style:none;
+            border-bottom:.01em solid #0f6965;
+            height:40px;
+            width:100%;
+            padding:0;
+            background-color:#0f6965;
+            float:none;
+            position:relative;
+}
+
+    .leftManuber ul li ul li a {
+                display:block;
+                text-decoration:none;
+                color:#ddffdf;
+                padding-top:10px;
+                padding-left:40px;
+                font-family:Tahoma;
+                font-size:15px;
+    }
+            .leftManuber ul li:hover >ul {
+            display:block;
+            }
+.depertment h3 {
+    font-family:'Adobe Arabic';
+    color:#808080;
+    padding-left:30px;
+    font-size:35px;
+    margin:0;
+
+}
+.sbmitBtn {
+    color:#ddffdf;
+    background-color:#0f6965;
+    font-family:'Adobe Arabic';
+    font-size:25px;
+    border-radius:5px;
+    margin-left:80%;
+    cursor:pointer;
+}
+.table1 {
+    height:150px;
+    width:auto;
+    border:0.1em #808080 solid;
+    margin-top:30px;
+    padding:20px 20px;
+    color:#373e4a;
+    margin-left:20%;
+}
+.gridView {
+    margin-top:20px;
+}
+.sbmitBtn:hover {
+    background-color:#119434;
+}
+.dashboard h3 {
+    font-family:'Adobe Arabic';
+    color:#808080;
+    padding-left:30px;
+    font-size:35px;
+    margin:0;
+}
+.GridviewButton {
+    background-color:#0f6965;
+    font-family:Tahoma;
+    color:#eeeeee;
+    vertical-align:central;
+}
+    .GridviewButton:hover {
+        cursor:pointer;
+        background-color:#119434;
+    }
+.gridViewcolumn {
+    height:auto;
+    width:150px;
+    word-wrap:break-word;
+}
+.ProfileField {
+    height:auto;
+    width:600px;
+    margin:auto;
+    margin-top:50px;
+    border-radius:7px;
+}
+.editProfileForm {
+  margin-left:100px;
+}
+.profileBtn {
+    height:50px;
+    width:170px;
+    color:#ddffdf;
+    background-color:#0f6965;
+    font-family:'Adobe Arabic';
+    font-size:25px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:10%;
+}
+.proBtnTable {
+    margin-left:50%;
+}
+.profileBtn:hover {
+    background-color:#119434;
+}
+.tblForm {
+    margin:auto;
+}
+.profileSubmitBtn {
+    height:40px;
+    width:305px;
+     border:1px solid black; 
+    border-radius:3px; 
+    margin:2px 4px; 
+    font-family:Tahoma;
+    font-size:16px;
+    background-color:#808080;
+    color:#eeeeee;
+}
+    .profileSubmitBtn:hover {
+        background-color:#373e4a;
+        font-weight:bold;
+        cursor:pointer;
+    }
+.adminPatient {
+    height:100px;
+    width:200px;
+    border:1px groove #373e4a;
+    float:left;
+    font-family:'Adobe Arabic';
+    color:#454042;
+    font-size:35px;
+    margin-left:50px;
+    background-color:#ddffdf;
+    border-radius:5px;
+}
+.profile {
+    height:100px;
+    width:200px;
+    border:1px groove #373e4a;
+    float:left;
+    font-family:'Adobe Arabic';
+    color:#454042;
+    font-size:35px;
+    margin-left:50px;
+    background-color:#ddffdf;
+    border-radius:5px;
+}
+.adminPatient:hover {
+    cursor:pointer;
+    background-color:#8a9865;
+    color:#eeeeee;
+}
+
+.profile:hover {
+    cursor:pointer;
+     background-color:#8a9865;
+     color:#eeeeee;
+}
+.bloodDonor {
+     height:100px;
+    width:200px;
+    border:1px groove #373e4a;
+    float:left;
+    font-family:'Adobe Arabic';
+    color:#454042;
+    font-size:35px;
+    margin-left:50px;
+    background-color:#ddffdf;
+    border-radius:5px;
+}
+    .bloodDonor:hover {
+        cursor:pointer;
+     background-color:#8a9865;
+     color:#eeeeee;
+    }
+.dashBoardForm {
+    margin-top:30px;
+}
+.adminDashBlock {
+     height:200px;
+    width:200px;
+    border:1px groove #373e4a;
+    float:left;
+    font-family:'Adobe Arabic';
+    color:#454042;
+    font-size:35px;
+    margin:20px;
+    background-color:#ddffdf;
+    border-radius:5px;
+}
+    .adminDashBlock:hover {
+         cursor:pointer;
+     background-color:#8a9865;
+     color:#eeeeee;
+    }
+.textBoxStyle {
+    width:300px;
+    height:30px;
+    margin:5px;
+}
+.DescripttionColumnInGridview {
+    overflow:hidden;
+    height:60px;
+    width:auto;
+}

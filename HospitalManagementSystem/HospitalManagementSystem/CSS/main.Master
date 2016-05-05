@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="HospitalManagementSystem.CSS.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hospital Management System</title>
+    <link rel="icon" href="allCss/Images/favicon.ico" />
+    <link href="allCss/main.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header style="background-image: url('/CSS/allCss/Images/logo1.png'); background-repeat: no-repeat">
+
+        <div id="logo" class="logo">
+           <%-- <img src="allCss/Images/logo1.png" runat="server" />--%>
+        </div>
+        <div id="name" class="name">
+            <h3>Grovier Hospital Limited</h3>
+        </div>
+        <div id="mainManu" class="mainManu">
+            <ul>
+                <li><a href="../Home/Home.aspx">Home</a></li>
+                <li><a href="../Services/emrgency.aspx">Services</a>
+                   
+                    <ul>
+                       <li><a href="../Services/emrgency.aspx"><span>Emergency</span></a></li>
+                        <li><a href="../Services/FindDoctors.aspx"><span>Find Doctor's</span></a></li>
+                        <li><a href="../Services/billing.aspx"><span>Billing</span></a></li>
+                        <li><a href="../Services/faq.aspx"><span>FAQ</span></a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="../Home/AboutUs.aspx">About us</a></li>
+                <li><a href="../Home/gallery.aspx">Gallery</a></li>
+             </ul>
+        </div>
+    </header>
+        <div id="sliderBox" class="sliderBox" style="margin:auto;height:400px;width:90%; border:1px solid black">
+            <img src="~/CSS/allCss/Images/i3.jpg" runat="server" id="iamgeSlider" class="imageSlider" style="height:400px;width:100%;" />
+          
+         
+        </div>
+        <div id="mainBody" class="mainBody">
+                <asp:ContentPlaceHolder ID="leftBer" runat="server">
+                   
+            
+                        
+                    </asp:ContentPlaceHolder>
+           <asp:ContentPlaceHolder ID="centerBodyPlaceHolder" runat="server">
+           <%-- <div id="center" class="center">
+               
+
+                
+            </div>--%>
+               </asp:ContentPlaceHolder>
+        </div>
+        
+         <div id="footer" class="footer">
+            <p>@copyrigth | Grover Hospital Limited</p>
+        </div>
+    </form>
+   
+</body>
+</html>

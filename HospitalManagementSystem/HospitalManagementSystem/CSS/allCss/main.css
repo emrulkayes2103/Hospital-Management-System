@@ -1,0 +1,397 @@
+﻿body {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 175px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.logo {
+    height: 175px;
+    width: 170px;
+    background-image: url('~/CSS/allCss/Images/logo1.png');
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.name {
+    height: 175px;
+    width: 550px;
+    float: left;
+    margin: auto;
+}
+
+    .name h3 {
+        text-align: center;
+        font-family: Tahoma;
+        font-size: 45px;
+        color: gray;
+        margin-top: 80px;
+    }
+
+.mainManu {
+    height: 45px;
+    width: auto;
+    float: left;
+    padding-left:30px;
+    margin-top: 92px;
+}
+
+    .mainManu ul {
+        list-style-type: none;
+        margin: 0;
+       
+        background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0px 20px;
+	border-radius: 5px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+    }
+    .mainManu ul:after {
+		content: "";
+         clear: both;
+          display: block;
+	}
+
+        .mainManu ul li {
+            list-style: none;
+            display: block;
+            float: left;
+            padding: 0px 20px;
+            padding-top: 6px;
+            height: 25px;
+            width: 64px;
+        }
+
+            .mainManu ul li:hover {
+                background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+            }
+                .mainManu ul li:hover a {
+                    color:white;
+                }
+               
+            .mainManu ul li a {
+                display: block;
+               
+		color: #757575;
+         text-decoration: none;
+            }
+
+                .mainManu ul li a:hover {
+                    color: white;
+                }
+        .mainManu ul ul {
+            display:none;
+            background: #5f6975;
+             border-radius: 0px;
+              padding: 0;
+              margin:0;
+	position: absolute; 
+    top: 100%;
+        }
+        .mainManu ul li:hover > ul {
+            display:block;
+        }
+        .mainManu ul ul li {
+            float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+        width:100px;
+        margin:0;
+      
+        text-align:center;
+        }
+
+.sliderBox {
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    
+    /*position:relative;
+    /*overflow:hidden;*/
+}
+
+#iamgeSlider {
+     height:400px;
+         width:1200px;
+}
+.mainBody {
+    height:auto;
+    width:90%;
+    margin:auto;
+}
+.left {
+    height:380px;
+    width:350px;
+    border:.5px solid white;
+    margin-top:10px;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+    float:left;
+    border-radius:10px;
+}
+.newHeder {
+    position:static;
+}
+.newsBody {
+    height:340px;
+    width:350px;
+}
+    .left h3 {
+        margin:0;
+        padding:10px 65px;
+        color:white;
+        border-bottom:1px double black;
+        font-size:22px;
+        background-color:#009b79;
+        border-radius:5px;
+    }
+    .left p {
+       padding:10px 20px;
+       font-family:'Adobe Arabic';
+       font-size:22px;
+       
+    }
+
+.center {
+    height:auto;
+    width:830px;
+    float:left;
+    margin-top:10px;
+    overflow-y:scroll;
+    margin-left:30px;
+    position:relative;
+}
+.HomeCenter {
+     height:auto;
+    width:830px;
+    float:left;
+    margin-top:10px;
+ 
+    margin-left:30px;
+    position:relative;
+}
+.footer {
+    height:80px;
+    width:90%;
+    margin:auto;
+    background-color:black;
+    color:white;
+    position:relative;
+    float:left;
+    margin-left:65px;
+    margin-top:30px;
+}
+    .footer p {
+        font-family: 'Adobe Arabic';
+        font-size: 25px;
+        text-align: center;
+    }
+.aboutUsCenter {
+    height:auto;
+    width:90%;
+    margin-top:10px;
+    /*overflow-y:scroll;*/
+}
+.gallerry {
+    height:300px;
+    width:100%;
+    margin-top:30px;
+}
+.galerrySection {
+    height:300px;
+    width:100%;
+}
+.gallery1 {
+    height:300px;
+    width:30%;
+    float:left;
+    border:1px solid gray;
+    border-radius:7px;
+    margin:20px 20px;
+}
+.gallery2 {
+    height:300px;
+    width:30%;
+    float:left;
+    border:1px solid gray;
+    border-radius:7px;
+    margin:20px 20px;
+}
+.gallery3 {
+    height:300px;
+    width:30%;
+    float:left;
+    border:1px solid gray;
+    border-radius:7px;
+    margin:20px 10px;
+}
+.leftManuber {
+    height:380px;
+    width:350px;
+    border:.5px solid white;
+    margin-top:10px;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+    float:left;
+    border-radius:10px;
+}
+.mainBodyServices {
+     height:380px;
+    width:830px;
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+    position:relative;
+}
+    .mainBodyServices h2 {
+        font-family:'Adobe Arabic';
+        font-style:italic;
+        text-decoration:double;
+        border-bottom:1px solid black;
+        font-size:40px;
+    }
+.leftManuber ul {
+    list-style-type:none;
+    margin:0;
+}
+    .leftManuber ul li {
+        list-style: none;
+        display: block;
+        padding-top: 6px;
+        height: 60px;
+        width: 250px;
+        background-color:gray;
+        margin:10px;
+        border-radius:10px;
+    }
+        .leftManuber ul li:hover {
+            background-color:white;
+            
+        }
+            .leftManuber ul li:hover a {
+                color:gray;
+            }
+        .leftManuber ul li a {
+            text-decoration:none;
+            font-family:'Adobe Arabic';
+            font-size:40px;
+            text-align:center;
+            padding:20px 20px;
+            color:white;
+        }
+.findDoctors {
+    height:auto;
+    width:850px;
+    float:left;
+    margin-top:10px;
+}
+.buttonSubmit:hover {
+    cursor:pointer;
+}
+.allDoctors {
+     height:auto;
+    width:850px;
+    float:left;
+    margin-top:10px;
+}
+.buttonSubmit:hover {
+    background-color:#007acc;
+    color:white;
+}
+.BillPay {
+    font-family:'Adobe Arabic';
+    font-size:30px;
+    float:left;
+    height:auto;
+    width:830px;
+}
+    .BillPay h2 {
+        border-bottom:1px solid black;
+        text-align:center;
+
+    }
+.faq {
+     font-family:'Adobe Arabic';
+    float:left;
+    height:auto;
+    width:830px;
+}
+.faq h3 {
+    font-family:'Adobe Gothic Std';
+    font-size:24px;
+    font-style:italic;
+    border-bottom:1px dashed black;
+    text-align:center;
+}
+#form1 {
+    height:auto;
+    width:100%;
+    margin:auto;
+}
+.news1 {
+    height:150px;
+    width:100%;
+    border-bottom:1px solid black;
+    overflow:hidden;
+    position:relative;
+}
+.title {
+    height:60px;
+    width:100%;
+    background-color:rgba(0,0,0,0.15);
+    color:black;
+}
+.linkStyle {
+    text-decoration:none;
+    font-family:Tahoma;
+    font-size:20px;
+    color:black;
+    margin:auto;
+    padding:4px;
+}
+.newsBody {
+    height:100%;
+    width:100%;
+    color:black;
+       overflow-y:scroll;
+}
+.hyperLink {
+    text-decoration:none;
+    font-family:Tahoma;
+    font-size:25px;
+    color:black;
+}
+    .hyperLink:hover {
+        color:red;
+    }
+.foundDoctorsCellHeigthWidth {
+    height:50px;
+    text-decoration:none;
+}
+.tableDetails {
+    height:auto;
+    width:100%;
+    font-family:Tahoma;
+    margin:50px;
+}
+.fieldset {
+    height:auto;
+    width:100%;
+    margin-top:40px;
+}

@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admins.master.cs" Inherits="HospitalManagementSystem.Admin.admins" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Grovier Hospital Managemt System</title>
+    <link rel="icon" href="../CSS/allCss/Images/favicon.ico" />
+    <link href="interUser.css" rel="stylesheet" />
+    
+</head>
+<body>
+   <header>
+       <div id="logInfo" class="logInfo">
+           <img class="logoImage" src="~/Admin/Images/adminPageLogo.png" runat="server" height="90" width="90" />
+       </div>
+       <div id="logOutbtn" class="logOutbtn">
+           <h3>Grovier Hospital Management System</h3>
+           <br />
+           <a href="../../userlogin.aspx">Log Out <img runat="server" src="Images/logout.jpg" height="15" width="15" hspace="2"/></a>
+       </div>
+      
+   </header>
+    
+        <div id="leftMenuSection" class="leftMenuSection">
+            <div id="userInfo" class="userInfo" style=" height:130px;
+    width:100%;
+    border-bottom:0.1em solid #0f6965;">
+                <img src="~/CSS/allCss/Images/admin.png" height="80" width="80" runat="server" style=" display: block;
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e7e7e7));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); 
+  color: #a7a7a7;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;"/>
+                <h4 style=" margin:0;
+    padding:0;
+    color:#ffffff;
+    font-family:'Adobe Arabic';
+    font-size:30px;">Welcome <asp:Label ID="lblForUser" runat="server"></asp:Label> </h4>
+                </div>
+            
+                <asp:ContentPlaceHolder ID="contentForUserInfo" runat="server">
+       
+                </asp:ContentPlaceHolder>
+            </div>
+        <div id="centerBody" class="centerBody">
+            <asp:ContentPlaceHolder ID="centerbody" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>

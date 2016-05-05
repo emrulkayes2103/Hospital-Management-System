@@ -1,0 +1,53 @@
+﻿body {
+    padding:0;
+    margin:0;
+}
+header {
+    height:300px;
+    width:100%;
+    margin:auto;
+    padding:0;
+    background-color:#373e4a;
+}
+.loginBody {
+    height:370px;
+    width:100%;
+    margin:auto;
+    padding:0;
+    background-color:#303641;
+}
+.logo {
+    height:90px;
+    width:90px;
+    padding-left:40px;
+    padding-top:100px;
+    margin:auto;
+}
+header h3 {
+    font-family:'Adobe نسخ';
+    font-size:40px;
+    color:#cacaca;
+    padding-left:450px;
+    margin:auto;
+}
+.loginForm {
+    height:auto;
+    width:600px;
+    padding-left:200px;
+    padding-top:100px;
+    margin:auto;
+
+}
+.logForm a {
+    font-family:'Adobe Arabic';
+    color:#cacaca;
+    font-size:30px;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color:#373e4a;
+    font-weight:bold;
+}
